@@ -1,0 +1,59 @@
+/*Media query for more appealing mobile screen*/
+@media only screen and (max-width: 480px) {
+
+  header img {
+    width: 20%;
+    height: auto;
+    margin: 0 auto;
+  }
+
+}
+
+/*text type classes*/
+.text-thin {
+  font-weight: 100;
+}
+
+.text-muted {
+  color: #BCBBBB;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  color: #747704;
+}
+
+h1 {
+  font-size: 4em;
+}
+
+h3, h4 {
+  font-size: 2em;
+}
+
+hr {
+  background-color: #BCBBBB;
+    border: 0 none;
+    color: #BCBBBB;
+    height: 4px;
+}
+
+button {
+  color: #fff;
+  background-color: #F8981C;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+header {
+  padding-top: 10px;
+}
+
+.project-container img,
+.banner img,
+.modal img {
+  width: 100%;
+  height: auto;
+}

@@ -4,14 +4,10 @@
 	.banner .overlay {
 		display: none;
 	}
-
+	
 }
+
 /* most general styling*/ 
-* {
-	margin: 0;
-	padding: 0;
-}
-
 body {
 	font-family: 'Oswald', sans-serif;
 	font-weight: 400;
@@ -23,7 +19,7 @@ body {
 a,
 a:hover {
 	text-decoration: none;
-	color: #000;
+	color: #666;
 }
 h1 {
 	font-size: 4.5em;
@@ -40,14 +36,15 @@ hr {
     height: 1px;
 }
 
-button {
+.btn {
 	color: #000;
 	background: #ffff0b;
 	border: none;
 	border-radius: 5px;
 	padding: 10px 15px;
 }
-button:hover {
+
+.btn:hover {
 	background: #666;
 }
 
@@ -58,7 +55,6 @@ button:hover {
 
 .text-muted{
 	color: #eee;
-
 }
 
 .text-yellow {
@@ -99,10 +95,10 @@ header img {
 }
 
 .banner .overlay span {
-	color:#eee;
+	color: #eee;
 	font-size: 1.1em;
 }
-.banner .overlay button {
+.banner .overlay .btn{
 	font-size: 2em;
 	margin-top: 2%;
 }
@@ -123,20 +119,20 @@ header img {
 }
 
 .modal-content {
-    background: #000;
+	background: #000;
 }
+
 /*FOOTER STYLE*/
 footer {
 	background: #ffff0b;
 	padding-top: 20px;
 	padding-bottom: 20px;
 }
-#contact {
+
+.contact {
 	background: #000;
 	padding-top: 30px;
 	padding-bottom: 30px;
-}
-#contact button {
 	margin: 5px;
 }
 
